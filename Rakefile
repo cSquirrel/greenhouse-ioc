@@ -23,7 +23,7 @@ task :publish => [:package] do |t|
   end
 
   # Publish to rubygems.org and tag the repo
-  `gem push greenhouse-ioc-#{Greenhouse::VERSION}.gem && git tag --message="Release version: #{Greenhouse::VERSION}" v_#{Greenhouse::VERSION}`
+  `gem push greenhouse-ioc-#{GreenhouseIoc::VERSION}.gem && git tag --message="Release version: #{GreenhouseIoc::VERSION}" v_#{GreenhouseIoc::VERSION}`
 end
 
 desc "Run tests"
