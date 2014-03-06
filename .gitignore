@@ -19,4 +19,4 @@ doc/
 *.ipa
 temp
 .idea
-
+.DS_Store
